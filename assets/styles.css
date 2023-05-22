@@ -1,1 +1,24 @@
 /* All CSS will go in this file */
+body {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 5px;
+}
+
+header{
+    padding: 0;
+    width: 100%;
+}
+
+.logo_header img{
+    display: flex;
+    justify-content: left;
+    max-width: 250px;
+}
