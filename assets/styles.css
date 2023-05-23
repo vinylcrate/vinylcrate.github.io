@@ -17,6 +17,19 @@ header{
     width: 100%;
 }
 
+header nav{
+    margin-left: 2rem;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    display: inline-flex;
+
+}
+
 .logo_header img{
     display: flex;
     justify-content: left;
